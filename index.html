@@ -7,11 +7,12 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
 <header class="banner">
-  CARTELERA 2026
-  <div class="subtitle">EXPERIENCIA STREAMING PREMIUM</div>
+  <h1>CARTELERA 2026</h1>
+  <p class="subtitle">EXPERIENCIA STREAMING PREMIUM</p>
 </header>
 
 <nav class="categories">
@@ -23,269 +24,319 @@
   <a href="#comedia">Comedia</a>
 </nav>
 
+<!-- MENSAJE DINÁMICO -->
+<div id="mensaje" class="mensaje"></div>
+
 <main>
-  <section id="accion">
-    <h2 class="section-title">Adrenalina Pura</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Avengers: Endgame</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>El Sacrificio Final:</strong> Tras el devastador chasquido de Thanos, los héroes deben arriesgarlo todo en una última misión a través del tiempo para recuperar las Gemas del Infinito y restaurar la existencia misma.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/KdL8ucqi1F8" allowfullscreen></iframe>
-      </div>
+
+<!-- ACCIÓN -->
+<section id="accion">
+<h2 class="section-title">Adrenalina Pura</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Avengers: Endgame</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>El Sacrificio Final:</strong> Tras el devastador chasquido de Thanos, los héroes deben arriesgarlo todo en una última misión a través del tiempo para recuperar las Gemas del Infinito y restaurar la existencia misma.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/KdL8ucqi1F8" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">John Wick 4</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Libertad a Sangre y Fuego:</strong> John Wick descubre un camino para derrotar a la Alta Mesa, pero antes debe enfrentarse a un nuevo enemigo con alianzas poderosas en todo el mundo.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/8ubRKDsM1FI" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Mad Max: Fury Road</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Fuego y Gasolina:</strong> Una odisea visual en un desierto postapocalíptico donde la supervivencia se escribe con sangre y motores rugientes. Una persecución frenética por la libertad.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/hEJnMQG9ev8" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<!-- CIENCIA FICCIÓN -->
+<section id="ciencia">
+<h2 class="section-title">Futuros Distópicos</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Interstellar</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>El Tiempo es un Lujo:</strong> Un viaje más allá de nuestra galaxia para encontrar un nuevo hogar para la humanidad. Una exploración sobre la soledad del cosmos y la fuerza del amor.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/LYS2O1nl9iM" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">The Matrix</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Despierta de la Simulación:</strong> Un hacker descubre que su realidad es una prisión digital. Una lucha existencial que cuestiona los límites de la percepción humana.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/Pl_H2Lmjn6k" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Inception</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Tu Mente es la Escena del Crimen:</strong> Dom Cobb roba secretos desde lo profundo del subconsciente durante el sueño. Ahora debe realizar lo imposible: implantar una idea.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/RV9L7ui9Cn8" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<!-- TERROR -->
+<section id="terror">
+<h2 class="section-title">Pesadillas Reales</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">IT</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>Tú también flotarás:</strong> Un grupo de niños se enfrenta a su peor pesadilla cuando un payaso maligno regresa a Derry para alimentarse de sus miedos.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/xKJmEC5ieOk" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">El Conjuro</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Basado en Archivos Warren:</strong> Investigadores paranormales ayudan a una familia aterrorizada por una presencia oscura en su granja aislada.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/wE59Ajd_v9M" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Annabelle</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>El Mal tiene un nuevo rostro:</strong> Una muñeca vintage se convierte en el recipiente de una entidad demoníaca que busca reclamar un alma humana.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/8kmLHwKH31M" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<!-- ROMANCE -->
+<section id="romance">
+<h2 class="section-title">Corazones Eternos</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Titanic</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Un Amor Contra el Destino:</strong> Jack y Rose encuentran una conexión inquebrantable en el viaje más famoso de la historia, desafiando las clases sociales y la tragedia.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/wMZuro21wtE" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">The Notebook</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>El poder de la memoria:</strong> Una historia de amor que trasciende décadas, demostrando que cuando el sentimiento es real, nada puede borrarlo del corazón.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/fwlmQ3PCZ9g" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">A Star is Born</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>Música y Desamor:</strong> Un músico veterano descubre a una joven talentosa. Mientras ella alcanza la fama, él lucha contra sus propios demonios en una espiral trágica.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/nSbzyEJ8X9E" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<!-- FANTASÍA -->
+<section id="fantasia">
+<h2 class="section-title">Mundos de Leyenda</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Harry Potter</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>El Niño que Vivió:</strong> Un huérfano descubre su herencia mágica y se embarca en una aventura en Hogwarts para enfrentarse al mago más oscuro de todos los tiempos.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/VyHV0BRtdxo" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">El Señor de los Anillos</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>Un Anillo para Gobernarlos:</strong> La travesía épica de Frodo Bolsón para destruir el Anillo Único en las profundidades del Monte del Destino.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/3GJp6p_mgPo" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Narnia</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>Más allá del armario:</strong> Cuatro hermanos descubren un mundo helado bajo el control de una bruja blanca, donde un león majestuoso espera su regreso.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/XFQwHiEdJdQ" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<!-- COMEDIA -->
+<section id="comedia">
+<h2 class="section-title">Risas y Caos</h2>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Superbad</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>Noche de Graduación:</strong> Dos amigos dependientes intentan comprar alcohol para una fiesta, desencadenando una serie de eventos hilarantes y desastrosos.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/4eaZ_48ZYog" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Deadpool</h3>
+<p class="stars">★★★★★</p>
+<p class="description-box">
+<strong>El Antihéroe Irreverente:</strong> Wade Wilson busca venganza contra el hombre que lo desfiguró, armado con habilidades de curación y un sentido del humor muy ácido.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/0JnRdfiUMa8" allowfullscreen></iframe>
+</figure>
+</article>
+
+<article class="movie-card">
+<div class="movie-info">
+<h3 class="title-box">Grown Ups</h3>
+<p class="stars">★★★★☆</p>
+<p class="description-box">
+<strong>Como en los viejos tiempos:</strong> Cinco amigos de la infancia se reúnen tras años para recordar que, aunque crecieron, nunca dejaron de ser niños.
+</p>
+</div>
+<figure class="video-container">
+<iframe src="https://www.youtube.com/embed/ATUCOOauAos" allowfullscreen></iframe>
+</figure>
+</article>
+
+</section>
+
+<section id="formulario">
+  <h2 class="section-title">Recibe Notificaciones y Recomienda Películas 🎬</h2>
+
+  <form id="formularioUsuario" class="formulario">
+
+    <div class="campo">
+      <label>Nombre</label>
+      <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
     </div>
 
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">John Wick 4</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Libertad a Sangre y Fuego:</strong> John Wick descubre un camino para derrotar a la Alta Mesa, pero antes debe enfrentarse a un nuevo enemigo con alianzas poderosas en todo el mundo.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/8ubRKDsM1FI" allowfullscreen></iframe>
-      </div>
+    <div class="campo">
+      <label>Correo</label>
+      <input type="email" id="correo" placeholder="Ingresa tu correo" required>
     </div>
 
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Mad Max: Fury Road</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Fuego y Gasolina:</strong> Una odisea visual en un desierto postapocalíptico donde la supervivencia se escribe con sangre y motores rugientes. Una persecución frenética por la libertad.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/hEJnMQG9ev8" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section id="ciencia">
-    <h2 class="section-title">Futuros Distópicos</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Interstellar</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>El Tiempo es un Lujo:</strong> Un viaje más allá de nuestra galaxia para encontrar un nuevo hogar para la humanidad. Una exploración sobre la soledad del cosmos y la fuerza del amor.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/LYS2O1nl9iM" allowfullscreen></iframe>
-      </div>
+    <div class="campo">
+      <label>Película sugerida</label>
+      <input type="text" id="pelicula" placeholder="Ej: Avatar 3">
     </div>
 
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">The Matrix</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Despierta de la Simulación:</strong> Un hacker descubre que su realidad es una prisión digital. Una lucha existencial que cuestiona los límites de la percepción humana.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/Pl_H2Lmjn6k" allowfullscreen></iframe>
-      </div>
+    <div class="campo">
+      <label>Comentario</label>
+      <textarea id="comentario" rows="4" placeholder="Escribe tu opinión..."></textarea>
     </div>
 
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Inception</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Tu Mente es la Escena del Crimen:</strong> Dom Cobb roba secretos desde lo profundo del subconsciente durante el sueño. Ahora debe realizar lo imposible: implantar una idea.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/RV9L7ui9Cn8" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
+    <button type="submit" class="btn-enviar">Enviar</button>
 
-  <section id="terror">
-    <h2 class="section-title">Pesadillas Reales</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">IT</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>Tú también flotarás:</strong> Un grupo de niños se enfrenta a su peor pesadilla cuando un payaso maligno regresa a Derry para alimentarse de sus miedos.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/xKJmEC5ieOk" allowfullscreen></iframe>
-      </div>
-    </div>
+  </form>
+</section>
 
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">El Conjuro</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Basado en Archivos Warren:</strong> Investigadores paranormales ayudan a una familia aterrorizada por una presencia oscura en su granja aislada.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/wE59Ajd_v9M" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Annabelle</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>El Mal tiene un nuevo rostro:</strong> Una muñeca vintage se convierte en el recipiente de una entidad demoníaca que busca reclamar un alma humana.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/8kmLHwKH31M" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section id="romance">
-    <h2 class="section-title">Corazones Eternos</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Titanic</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Un Amor Contra el Destino:</strong> Jack y Rose encuentran una conexión inquebrantable en el viaje más famoso de la historia, desafiando las clases sociales y la tragedia.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/wMZuro21wtE" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">The Notebook</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>El poder de la memoria:</strong> Una historia de amor que trasciende décadas, demostrando que cuando el sentimiento es real, nada puede borrarlo del corazón.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/fwlmQ3PCZ9g" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">A Star is Born</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>Música y Desamor:</strong> Un músico veterano descubre a una joven talentosa. Mientras ella alcanza la fama, él lucha contra sus propios demonios en una espiral trágica.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/nSbzyEJ8X9E" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section id="fantasia">
-    <h2 class="section-title">Mundos de Leyenda</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Harry Potter</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>El Niño que Vivió:</strong> Un huérfano descubre su herencia mágica y se embarca en una aventura en Hogwarts para enfrentarse al mago más oscuro de todos los tiempos.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/VyHV0BRtdxo" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">El Señor de los Anillos</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>Un Anillo para Gobernarlos:</strong> La travesía épica de Frodo Bolsón para destruir el Anillo Único en las profundidades del Monte del Destino.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/3GJp6p_mgPo" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Narnia</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>Más allá del armario:</strong> Cuatro hermanos descubren un mundo helado bajo el control de una bruja blanca, donde un león majestuoso espera su regreso.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/XFQwHiEdJdQ" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
-
-  <section id="comedia">
-    <h2 class="section-title">Risas y Caos</h2>
-    
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Superbad</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>Noche de Graduación:</strong> Dos amigos dependientes intentan comprar alcohol para una fiesta, desencadenando una serie de eventos hilarantes y desastrosos.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/4eaZ_48ZYog" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Deadpool</div>
-        <div class="stars">★★★★★</div>
-        <div class="description-box">
-          <strong>El Antihéroe Irreverente:</strong> Wade Wilson busca venganza contra el hombre que lo desfiguró, armado con habilidades de curación y un sentido del humor muy ácido.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/0JnRdfiUMa8" allowfullscreen></iframe>
-      </div>
-    </div>
-
-    <div class="movie-card">
-      <div class="movie-info">
-        <div class="title-box">Grown Ups</div>
-        <div class="stars">★★★★☆</div>
-        <div class="description-box">
-          <strong>Como en los viejos tiempos:</strong> Cinco amigos de la infancia se reúnen tras años para recordar que, aunque crecieron, nunca dejaron de ser niños.
-        </div>
-      </div>
-      <div class="video-container">
-        <iframe src="https://www.youtube.com/embed/ATUCOOauAos" allowfullscreen></iframe>
-      </div>
-    </div>
-  </section>
 </main>
 
 <footer>
-  © 2026 Streaming Landing Page - Tráilers Oficiales de YouTube.
+<p>© 2026 Streaming Landing Page - Tráilers Oficiales de YouTube.</p>
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
+
