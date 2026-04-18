@@ -16,8 +16,8 @@ body {
 
 .banner {
   background: 
-    linear-gradient(rgba(0,0,0,0.7), rgba(11, 15, 26, 0.95)),
-    url("https://images.unsplash.com/photo-1608889175119-7d5a4c1c7d3c");
+    linear-gradient(rgba(0,0,0,0.75), rgba(11, 15, 26, 0.95)),
+    url("https://images.unsplash.com/photo-1626814026160-2237a95fc5a0");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

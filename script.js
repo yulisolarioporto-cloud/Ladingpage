@@ -1,28 +1,31 @@
 document.addEventListener("DOMContentLoaded", function () {
 
     const mensaje = document.getElementById("mensaje");
+    let timer;
 
-    mensaje.textContent = "🎬 ¡Bienvenid@ a Cartelera 2026!";
-    mensaje.style.opacity = "1";
+    function mostrarMensaje(texto) {
+        mensaje.textContent = texto;
+        mensaje.style.opacity = "1";
+        clearTimeout(timer);
+        timer = setTimeout(() => {
+            mensaje.style.opacity = "0";
+        }, 1000);
+    }
 
-    setTimeout(() => {
-        mensaje.style.opacity = "0";
-    }, 3000);
+    mostrarMensaje(" ¡Bienvenid@ a Cartelera 2026!");
 
-    // NAV
     document.querySelectorAll(".categories a").forEach(function (categoria) {
         categoria.addEventListener("click", function () {
-            mensaje.textContent = "📌 Estás viendo la categoría: " + categoria.textContent;
-            mensaje.style.opacity = "1";
+            mostrarMensaje("Categoría: " + categoria.textContent);
         });
     });
 
+    
     document.querySelectorAll(".movie-card").forEach(function (pelicula) {
 
         pelicula.addEventListener("click", function () {
             const titulo = pelicula.querySelector(".title-box").textContent;
-            mensaje.textContent = "🎥 Seleccionaste: " + titulo;
-            mensaje.style.opacity = "1";
+            mostrarMensaje(" Seleccionaste: " + titulo);
         });
 
         pelicula.addEventListener("mouseover", function () {
@@ -41,12 +44,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const nombre = document.getElementById("nombre").value;
 
-        mensaje.textContent = "✅ Gracias " + nombre + ", te has registrado correctamente";
-        mensaje.style.opacity = "1";
-
-        setTimeout(() => {
-            mensaje.style.opacity = "0";
-        }, 3000);
+        mostrarMensaje("Gracias " + nombre + ", registro exitoso");
 
         form.reset();
     });
